@@ -1,48 +1,53 @@
-# portafolio-personal
+# Portafolio Personal
 
-This template should help get you started developing with Vue 3 in Vite.
+## Objetivo
 
-## Recommended IDE Setup
+EL objetivo de esta práctica es crear un portfolio personal para subir los proyectos realizados, la experiencia y demás información personal laboral.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Diseño previo
 
-## Recommended Browser Setup
+Quería darle un toque oscuro al estilo de Silent Hill, pero era una decisión de diseño algo arriesgada. Finalmente, como me vi apurado, decidí darle un enfoque  más seguro con alguno de los colores de la paleta.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+[Paleta de colores de Silent Hill](https://www.reddit.com/r/silenthill/comments/k9pl78/silent_hill_2_enhanced_edition_colors_chart/)
 
-## Type Support for `.vue` Imports in TS
+Utilicé esta página que te genera una paleta de colores a partir de un color, y te da ejemplos de componentes y como debe usarse la paleta
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+[Paleta re-generada con Coolors](https://coolors.co/tailwind/493021)
 
-## Customize configuration
+## Realización del código
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Comencé a realizar el porfolio ruta por ruta. 
 
-## Project Setup
+Primero hice la de About Me, que contiene una breve información sobre mi, mi foto, y un botón para descargar mi currículum.
 
-```sh
-npm install
-```
+<center>
+    <img src="./src/assets/1_portada-portfolio.png" />
+</center>
 
-### Compile and Hot-Reload for Development
+Luego hice la ruta de Proyectos, que contiene algunos de mis trabajos realizados en los dos ciclos. El diseño de cada proyecto está implementado en un componente aparte que va cargando la información de forma dinámica segun se quiera.
 
-```sh
-npm run dev
-```
+<center>
+    <img src="./src/assets/2_proyectos-portfolio.png" />
+</center>
 
-### Type-Check, Compile and Minify for Production
+Seguí por el apartado de habilidades, que decidí estructurar en dos bloques, técnicas y sociales. Luego las dividí en otras categorías, lenguajes, frameworks, musicales (debidos a mis estudios de música).
 
-```sh
-npm run build
-```
+<center>
+    <img src="./src/assets/3_habilidades-portfolio.png" />
+</center>
 
-### Lint with [ESLint](https://eslint.org/)
+En la parte de Experiencia, expliqué el trabajo realizado de Erasmus el año pasado, mi función principal en el proyecto y el objetivo general de este. También anoté las herramientas empleadas y la información de la "empresa".
 
-```sh
-npm run lint
-```
+<center>
+    <img src="./src/assets/4_experiencia-portfolio.png" />
+</center>
+
+Y finalmente en el apartado de contacto, coloqué un sencillo bloque con varios botones para acceder a las urls de mis redes de sociales relacionadas con mi trabajo, y uno extra que permite mandar un correo a mi dirección.
+
+<center>
+    <img src="./src/assets/5_contacto-protfolio.png" />
+</center>
+
+## Conclusión
+
+En definitiva, este trabajo me parece una opción muy productiva ya que se realiza tanto una actividad para clase como un proyecto que puede servir a futuro y crecer con el que lo realiza. Además, he aprendido y repasado varios contenidos de tailwind y vue, que nunca viene mal.
