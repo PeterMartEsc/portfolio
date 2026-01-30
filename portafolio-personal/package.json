@@ -8,7 +8,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "vue-cli-service build",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
